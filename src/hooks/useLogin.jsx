@@ -14,7 +14,6 @@ export default function useLogin() {
                 setUser({ username: userLogin.username, token });
             })
             .catch((error) => {
-                console.log("Error xd: ", error);
                 setErrorUsername("Username y/o password incorrectos");
             })
             .finally(() => {

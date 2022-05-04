@@ -20,7 +20,6 @@ export const tomar = (id, token) => {
             return res.json();
         })
         .then((res) => {
-            console.log("tomar | Res: ", res);
             return res;
         });
 };
@@ -38,7 +37,6 @@ export const devolver = (id, token) => {
             return res.json();
         })
         .then((res) => {
-            console.log("devolver | Res: ", res);
             return res;
         });
 };
