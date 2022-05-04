@@ -9,4 +9,4 @@ const generarHorario = (inicio, fin) => {
 
 export const HORARIOS = generarHorario(8, 20);
 
-export const ENDPOINT = "http://localhost:8080";
+export const ENDPOINT = "https://reserva-motocicleta.herokuapp.com";
